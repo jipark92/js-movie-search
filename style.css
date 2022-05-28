@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
+    color: white;
 }
 
 .title-container{
-    border-bottom: 1px solid black;
     padding: 1rem;
     text-align: center;
 }
@@ -15,22 +16,25 @@
     justify-content: center;
 
     padding: 1rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 .search-box{
     padding: 0.5rem;
     font-size: 1.2rem;
+    border: 2px solid white;
 }
 
 .search-btn{
     padding: 0.5rem;
     font-size: 1.2rem;
+    border: 2px solid white;
+
 }
 
 .search-btn:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .result-container{
@@ -40,6 +44,21 @@
 }
 
 .content-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:1rem;
+
     padding: 1rem;
-    border: 1px solid black;
+    border: 1px solid white;
+}
+
+.movie-info-container{
+    border: 1px solid white;
+    width: 250px;
+}
+
+.movie-info-container img{
+    width: 100%;
+    height: 75%;
 }
