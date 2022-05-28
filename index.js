@@ -46,4 +46,6 @@ const renderMovies = () =>{
 
     contentContainer.innerHTML = render
     searchResult.innerHTML = resultText
+
+    searchBox.value = ""
 }
