@@ -12,6 +12,9 @@ const getData = (movie) => {
         movieArrays = data.Search
         renderMovies()
     })
+    .catch(()=>{
+        alert('no movie found')
+    })
 }
 
 const searchMovie = () => {
