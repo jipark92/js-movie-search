@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title-container{
+    border-bottom: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.search-box{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.search-btn{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.search-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.result-container{
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.content-container{
+    padding: 1rem;
+    border: 1px solid black;
+}
