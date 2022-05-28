@@ -16,6 +16,10 @@ const getData = (movie) => {
 
 const searchMovie = () => {
     searchBtn.addEventListener('click',()=>{
+        if(searchBox.value === "" ){
+            alert('type a movie name!')
+            return
+        }
         let movies = searchBox.value
         getData(movies)
     })
