@@ -6,7 +6,7 @@ const searchResult = document.querySelector('.result-container')
 let movieArrays = []
 
 const getData = (movie) => {
-    fetch(`http://www.omdbapi.com/?s=${movie}&apikey=ba72029b`)
+    fetchJsonp(`https://www.omdbapi.com/?s=${movie}&apikey=ba72029b`,{mode: 'cors'})
     .then(res=>res.json())
     .then(data=>{
         movieArrays = data.Search
